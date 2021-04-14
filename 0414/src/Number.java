@@ -3,10 +3,10 @@ import java.util.Scanner;
 public class Number {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.print("10°³ÀÇ ·£´ı ¼ıÀÚ Áß ÇÏ³ª¸¦ ¸ÂÃçº¸¼¼¿ä(1~50) : ");
+		System.out.print("10ê°œì˜ ëœë¤ ìˆ«ì ì¤‘ í•˜ë‚˜ë¥¼ ë§ì¶°ë³´ì„¸ìš”(1~50) : ");
 		int b = sc.nextInt();
 		int c=0;
-		for(int i=0;i<10;i++) {
+		for(int i=0;i<10;i++) { // ëœë¤ìœ¼ë¡œ ë„ìš°ë©° ì…ë ¥ë°›ì€ ê°’ê³¼ 
 			int a = (int)(Math.random()*50+1);
 		
 			System.out.print(a+" ");
@@ -16,8 +16,8 @@ public class Number {
 		}
 		
 		if(c==1) {
-			System.out.println("\n"+"¼º°ø");
-		}else System.out.println("\n"+"²Î");
+			System.out.println("\n"+"ì„±ê³µ");
+		}else System.out.println("\n"+"ê½");
 		
 
 	}
